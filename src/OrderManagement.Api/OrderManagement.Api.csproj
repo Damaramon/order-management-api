@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.15" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../../db/schema.sql" LogicalName="OrderManagement.Schema.sql" />
+  </ItemGroup>
+</Project>
